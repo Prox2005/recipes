@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+  font-family: var(--font-family);
+}
+
+html,
+body,
+#root,
+.App {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px 300px;
+}

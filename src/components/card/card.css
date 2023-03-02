@@ -1,0 +1,11 @@
+.app__card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.app__card img {
+  width: 200px;
+}

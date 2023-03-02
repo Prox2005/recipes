@@ -1,0 +1,35 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.home form {
+  display: flex;
+  height: 50px;
+  background-color: #e3e3e3;
+}
+
+.home form input {
+  flex: auto;
+  padding-left: 10px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.home form button {
+  width: 150px;
+  border: none;
+  background-color: #f95959;
+  color: white;
+  cursor: pointer;
+}
+
+.home__recipes-container {
+  margin-top: 50px;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px;
+}
