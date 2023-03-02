@@ -29,7 +29,7 @@ const Home = () => {
         <button type="submit">Search</button>
       </form>
       <main>
-        <h1>Recipes</h1>
+        <h1>{input} recipes</h1>
         <section className="home__recipes-container">
           {recipes !== null
             ? recipes.map((x) => <Card key={x.idMeal} recipe={x}></Card>)

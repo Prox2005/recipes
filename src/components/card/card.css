@@ -1,11 +1,25 @@
 .app__card {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
   width: 200px;
   cursor: pointer;
-  text-align: center;
+  position: relative;
+  height: 350px;
 }
 
 .app__card img {
   width: 200px;
+}
+
+.app__card a {
+  width: 150px;
+  padding: 10px 0;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: white;
+  background-color: #233142;
 }
