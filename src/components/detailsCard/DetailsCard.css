@@ -1,0 +1,20 @@
+.app__details-card {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.app__details-card img {
+  width: 350px;
+}
+.app__details-card__meal {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.app__details-card h1 {
+  font-size: 50px;
+  color: #233142;
+  margin: 0;
+}

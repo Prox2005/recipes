@@ -7,7 +7,7 @@ const Card = ({ recipe }) => {
     <div className="app__card">
       <img src={recipe.strMealThumb} alt="meal picture" />
       <h3>{recipe.strMeal}</h3>
-      <Link to={`/details/${recipe.strMeal}`}>Details</Link>
+      <Link to={`/details/${recipe.idMeal}`}>Details</Link>
     </div>
   );
 };

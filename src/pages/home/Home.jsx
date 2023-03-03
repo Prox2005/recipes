@@ -1,19 +1,13 @@
-import React, { useEffect, useState } from "react";
-import { init, searchMeal } from "../../data/fetch";
+import React, { useState } from "react";
 import { Card } from "../../components";
 import "./home.css";
 
-const Home = () => {
+const Home = ({ recipes, searchMeal }) => {
   const [input, setinput] = useState("");
-  const [recipes, setrecipes] = useState([]);
-
-  useEffect(() => {
-    init(setrecipes);
-  }, []);
 
   function handleSubmit(event) {
     event.preventDefault();
-    searchMeal(setrecipes, input);
+    searchMeal(input);
   }
 
   return (
