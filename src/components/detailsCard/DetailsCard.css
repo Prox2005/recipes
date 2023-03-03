@@ -1,15 +1,16 @@
 .app__details-card {
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px;
 }
 
 .app__details-card img {
   width: 350px;
 }
+
 .app__details-card__meal {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   gap: 50px;
 }
 
@@ -17,4 +18,14 @@
   font-size: 50px;
   color: #233142;
   margin: 0;
+}
+
+.app__details-card__details {
+  align-self: center;
+}
+
+@media screen and (max-width: 450px) {
+  .app__details-card img {
+    width: 100%;
+  }
 }

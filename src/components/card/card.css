@@ -23,3 +23,7 @@
   color: white;
   background-color: #233142;
 }
+
+.app__card a:hover {
+  box-shadow: 0 0 100px #233142;
+}
