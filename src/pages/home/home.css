@@ -20,6 +20,8 @@
 
 .home form button {
   width: 150px;
+  width: 20%;
+  min-width: 100px;
   border: none;
   background-color: #f95959;
   color: white;
@@ -27,9 +29,15 @@
 }
 
 .home__recipes-container {
-  margin-top: 50px;
-  position: relative;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   gap: 100px;
+  margin: 50px 0;
+}
+
+@media screen and (max-width: 400px) {
+  .home form button {
+    max-width: 20%;
+  }
 }

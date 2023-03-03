@@ -15,5 +15,16 @@ body,
   display: flex;
   flex-direction: column;
   gap: 50px;
-  padding: 20px 300px;
+  padding: 20px 200px;
+}
+
+@media screen and (max-width: 950px) {
+  .App {
+    padding: 20px 100px;
+  }
+}
+@media screen and (max-width: 710px) {
+  .App {
+    padding: 20px 30px;
+  }
 }
